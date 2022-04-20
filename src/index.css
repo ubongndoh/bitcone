@@ -43,10 +43,42 @@ body {
 .card1 {
 	background-color: rgba(0, 0, 255, 0.15);
 }
-card2 {
+.card2 {
 	background-color: rgba(96, 8, 207, 0.2);
 }
 
-card3 {
+.card3 {
 	background-color: rgba(3, 156, 74, 0.15);
+}
+
+.tab-header {
+	list-style: none;
+	
+	border-radius: 36px;
+	line-height: 25px;
+
+  }
+
+  .tab-header li {
+  display: inline;
+  padding: 7px 12px;
+  border-radius: 36px;
+  line-height: 35px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.tab-header li.active,
+.tab-header li:hover {
+  background: #4cb8c4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4cb8c4,
+    #3cd3ad
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4cb8c4,
+    #3cd3ad
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

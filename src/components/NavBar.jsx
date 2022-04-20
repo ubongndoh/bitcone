@@ -31,7 +31,10 @@ export default function Navbar() {
 							<Link to='/about'>
 								<li className='lg:px-10 px-2 lg:text-base text-sm'>About</li>
 							</Link>
+							<Link to='/roadmap'>	
 							<li className='lg:px-10 px-2 lg:text-base text-sm'>Roadmap</li>
+							</Link>
+						
 						</ul>
 					</div>
 					{/* <div className='flex items-center  mr-20'>

@@ -1,5 +1,6 @@
 import React from 'react';
 //import img from '../assets/real-estate.png';
+import {Link} from 'react-router-dom'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -127,35 +128,40 @@ const Hero = ({ img }) => {
 					//height: '450px',
 				}}
 			>
-				<div className='  text-slate-100   lg:pt-10 pt-10 lg:px-20 px-10'>
+				<div className='  text-slate-100   lg:pt-40 pt-10 lg:px-20 px-10'>
 					<Slider {...settings}>
 						<div>
 							<div className='lg:text-4xl text-2xl font-bold '>
 								Development of world-class <br /> Buildings for Low Income{' '}
 								<br /> Earners
 							</div>
-							<div className=' lg:my-8 my-3 '>
+							<div className=' lg:my-12 my-3 '>
 								{' '}
 								we harness the power of Blockchain Technologies to develoop
 								world- <br /> class buildings for...
 							</div>
+							<Link to='/roadmap'>
 							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
 								View RoadMap
 							</button>
+							</Link>
+							
 						</div>
 						<div>
 							<div className='lg:text-4xl text-2xl font-bold '>
 								The NFT market place <br /> will serve as retail <br /> market
 								for Uren governance
 							</div>
-							<div className=' lg:my-8 my-3 '>
+							<div className=' lg:my-12 my-3 '>
 								{' '}
 								Uren NFTs are visual building properties issued to direct
 								<br /> investors instead of shares
 							</div>
+							<Link to='/roadmap'>
 							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
 								View RoadMap
 							</button>
+							</Link>
 						</div>
 						<div>
 							<div className='lg:text-4xl text-2xl font-bold '>
@@ -163,15 +169,17 @@ const Hero = ({ img }) => {
 								<br /> Real Estate development
 							</div>
 
-							<div className=' lg:my-8 my-3 '>
+							<div className=' lg:my-12 my-3 '>
 								{' '}
 								Uren Platforms is for listing leasing, selling, buying and
 								investigating . <br /> ownerships of properties and property
 								(ies) document
 							</div>
+							<Link to='/roadmap'>
 							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
 								View RoadMap
 							</button>
+							</Link>
 						</div>
 					</Slider>
 				</div>

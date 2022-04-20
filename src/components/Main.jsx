@@ -20,9 +20,9 @@ const Main = () => {
 			{/* cards */}
 			<section>
 				{/* row 1 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1 my-10  '>
-					<div className='flex lg:pl-48  pl-12 '>
-						<div className='rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
+				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-48 px-0 '>
+					<div className='mx-auto flex  '>
+						<div className=' rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
 							<div>
 								<img className=' mx-auto h-20 w-20' src={group1} alt='' />
 							</div>
@@ -44,7 +44,7 @@ const Main = () => {
 						</div>
 					</div>
 
-					<div className='flex lg:ml-0 ml-12 lg:mt-0 mt-5   '>
+					<div className=' mx-auto flex '>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card2  '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group2} alt='' />
@@ -64,8 +64,8 @@ const Main = () => {
 					</div>
 				</div>
 				{/* row 2 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1   my-10 '>
-					<div className='flex lg:pl-48  pl-12  '>
+				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-48 px-0'>
+					<div className='flex mx-auto  '>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card3 '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group3} alt='' />
@@ -87,7 +87,7 @@ const Main = () => {
 						</div>
 					</div>
 
-					<div className='flex lg:pl-0 pl-12  mt-5 '>
+					<div className='flex mx-auto  '>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card1 '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group1} alt='' />
@@ -111,9 +111,9 @@ const Main = () => {
 					</div>
 				</div>
 			</section>
-			<section>
+			<section className='mt-40'>
 				<div>
-					<h3 className=' font-black text-center lg:text-4xl text-2xl  my-5'>
+					<h3 className=' font-black text-center lg:text-4xl text-2xl  my-10'>
 						Our Community
 					</h3>
 					<p className=' lg:px-20 px-5 lg:font-normal font-light lg:text-lg text-base text-center'>
@@ -191,7 +191,7 @@ const Main = () => {
 
 					<div className='  '>
 						<div className='  '>
-							<img alt='...' src={roadmap} className=' h-96 mx-2' />
+							<img alt='...' src={roadmap} className='lg:h-full h-96 mx-2' />
 						</div>
 					</div>
 				</div>

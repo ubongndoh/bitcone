@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '@/assets/logo.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
 	return (
 		<>
@@ -13,9 +14,16 @@ const Footer = () => {
 							<div className=' font-bold text-2xl my-4'>Explore</div>
 							<div className='grid grid-cols-2'>
 								<div>
+									<Link to='/'>
 									<div>Home</div>
+									</Link>
+									<Link to='/about'>
 									<div>About</div>
+									</Link>
+									<Link to='/roadmap'>
 									<div>Roadmap</div>
+									</Link>
+								
 								</div>
 								<div>
 									<div>Support</div>
@@ -38,7 +46,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className='text-center mt-10'>
-						Copyright © urentech 2022. All rights reserved
+						Copyright © <Link to='/'> urentech</Link> 2022. All rights reserved
 					</div>
 				</div>
 			</footer>

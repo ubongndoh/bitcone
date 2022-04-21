@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ScreenSamples from '@/assets/blockchain-real-estate-part-one.png';
 import img2 from '@/assets/blockchain-real-estate-part-two.png';
 import img4 from '@/assets/img3.png';
@@ -16,17 +17,18 @@ import roadmap from '@/assets/roadmap.png';
 
 const Main = () => {
 	return (
-		<main className=' overflow-hidden pb-20 text-warmGray-50'>
+		<>
+		<main className=' overflow-hidden pb-20 text-warmGray-50 card '>
 			{/* cards */}
-			<section>
+			<section className=' my-40'>
 				{/* row 1 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-48 px-0 '>
-					<div className='mx-auto flex  '>
+				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0 '>
+					<div className='mx-auto flex border-b-2 rounded-b-lg '>
 						<div className=' rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
 							<div>
 								<img className=' mx-auto h-20 w-20' src={group1} alt='' />
 							</div>
-							<div className='p-6 '>
+							<div className='p-6 text-center '>
 								<h5 className='text-white text-3xl font-black mb-8 text-center'>
 									Revolutionizing and Empowering Real Estate Development.
 								</h5>
@@ -44,12 +46,12 @@ const Main = () => {
 						</div>
 					</div>
 
-					<div className=' mx-auto flex '>
+					<div className=' mx-auto flex border-b-2 rounded-b-lg'>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card2  '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group2} alt='' />
 							</a>
-							<div className='p-6 '>
+							<div className='p-6 text-center '>
 								<h5 className='text-white text-3xl font-black mb-8 text-center'>
 									Development of World-class Buildings for Low Income Earners
 								</h5>
@@ -64,13 +66,13 @@ const Main = () => {
 					</div>
 				</div>
 				{/* row 2 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-48 px-0'>
-					<div className='flex mx-auto  '>
+				<div className=' grid lg:grid-cols-2 grid-cols-1   gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0'>
+					<div className='flex mx-auto border-b-2 rounded-b-lg '>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card3 '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group3} alt='' />
 							</a>
-							<div className='p-6 '>
+							<div className='p-6 text-center '>
 								<h5 className='text-white text-3xl font-black mb-8 text-center'>
 									Grow your income and Portfolio
 								</h5>
@@ -87,12 +89,12 @@ const Main = () => {
 						</div>
 					</div>
 
-					<div className='flex mx-auto  '>
+					<div className='flex mx-auto border-b-2 rounded-b-lg '>
 						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card1 '>
 							<a href='#!'>
 								<img className='rounded-t-lg mx-auto' src={group1} alt='' />
 							</a>
-							<div className='p-6 '>
+							<div className='p-6 text-center '>
 								<h5 className='text-white text-3xl font-black mb-8 text-center'>
 									Revolutionizing and Empowering Real Estate Development.
 								</h5>
@@ -111,12 +113,14 @@ const Main = () => {
 					</div>
 				</div>
 			</section>
-			<section className='mt-40'>
+			
+		</main>
+		<section className='mt-40'>
 				<div>
 					<h3 className=' font-black text-center lg:text-4xl text-2xl  my-10'>
 						Our Community
 					</h3>
-					<p className=' lg:px-20 px-5 lg:font-normal font-light lg:text-lg text-base text-center'>
+					<p className=' lg:px-20 px-5 lg:font-normal font-light lg:text-lg text-base lg:text-center text-left'>
 						We are home to one of the fastest-growing communities at the
 						intersection of variety gaming, <br /> esports, and blockchain. We
 						are intentional about building an international community that is{' '}
@@ -132,7 +136,7 @@ const Main = () => {
 						<div className=' text-center'>
 							{/* <p className='text-lg font-semibold text-gray-50  my-2 '>100k</p> */}
 							{/* <p className='mb-2 text-sm font-medium text-gray-50  '>Follow</p> */}
-							<button className='border hover:scale-105 drop-shadow-md font-medium text-lg  shadow-cla-blue px-4 py-1 rounded-lg'>
+							<button className='border hover:scale-105  font-medium text-lg  shadow-cla-blue lg:px-4 px-2 py-1 rounded-lg'>
 								Follow
 							</button>
 						</div>
@@ -176,7 +180,7 @@ const Main = () => {
 				</div>
 			</section>
 			<section>
-				<div className=' grid lg:grid-cols-2 grid-cols-1   lg:my-10  my-5'>
+				<div className=' grid lg:grid-cols-2 grid-cols-1   lg:mt-10  mt-5 card'>
 					<div className=' px-20 mt-7 '>
 						<h3 className='text-4xl  font-bold  '>Our Roadmap</h3>
 						<p className=' text-base leading-relaxed mt-10 mb-4 text-warmGray-50'>
@@ -184,9 +188,11 @@ const Main = () => {
 							world-class buildings for developing cities
 						</p>
 						{/* <div className='btn'>View Road Map</div> */}
+						<Link to='/roadmap'>
+						
 						<button class='btn hover:scale-105 drop-shadow-md font-medium text-lg my-10  px-4 py-1 rounded-lg'>
 							View Road Map
-						</button>
+						</button></Link>
 					</div>
 
 					<div className='  '>
@@ -196,7 +202,9 @@ const Main = () => {
 					</div>
 				</div>
 			</section>
-		</main>
+		</>
+		
+		
 	);
 };
 

@@ -22,7 +22,7 @@ body {
 	color: #0000ff !important;
 }
 .slick-dots {
-	bottom: -150px !important;
+	bottom: -120px !important;
 }
 
 /* particles */
@@ -40,6 +40,9 @@ body {
 	z-index: 0;
 }
 /* cards */
+.card{
+background-color: #090817F0;
+}
 .card1 {
 	background-color: rgba(0, 0, 255, 0.15);
 }
@@ -65,7 +68,7 @@ body {
   border-radius: 36px;
   line-height: 35px;
   cursor: pointer;
-  margin: 0 20px;
+  margin: 0 4px;
 }
 
 .tab-header li.active,
@@ -81,4 +84,9 @@ body {
     #4cb8c4,
     #3cd3ad
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.vertical-timeline-element-icon{
+	-webkit-box-shadow: 0 0 0 4px #0000FF, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%)!important;
+    box-shadow: 0 0 0 4px #0000FF, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%)!important;
 }

@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Roadmap = () => {
     return (
-        <div>
+        <div className=' overflow-hidden'>
             <Navbar />
 
             <header>
@@ -53,91 +53,96 @@ const Roadmap = () => {
                 <Tabs>
 
                     <TabPane name="2022" key="1">
-                        <div className='flex justify-center text-4xl my-10 font-black'>2022: Development Stage</div>
-                        <VerticalTimeline>
+                        <div className='flex justify-center lg:text-4xl text-2xl my-20 font-black'>2022: Development Stage</div>
+                        <VerticalTimeline
+                        lineColor='#0000FF'
+                        >
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work mb-10"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="Q2:"
-                                iconStyle={{ background: '#08091A', color: '#fff' }}
+                                iconStyle={{ background: 'rgba(14, 13, 36)', color: '#fff' }}
+                                
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Initial seed funding ii.</h3>
-                                <h4 className="vertical-timeline-element-subtitle">BRISE Audit </h4>
-                                <p>
-                                    Website launch
-                                </p>
+                                <h3 className="vertical-timeline-element-title text-lg pb-2 font-medium">Initial Seed Funding ii.</h3>
+                                <h3 className="text-lg pb-2 font-medium">BRISE Audit </h3>
+                                <h3 className='text-lg  font-medium'>
+                                    Website Launch
+                                </h3>
 
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
-                                className="vertical-timeline-element--work"
+                                className="vertical-timeline-element--work text-lg  font-medium"
                                 date="Q3:"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Token Launch</h3>
-                                <h4 className="vertical-timeline-element-subtitle">DEX Listing</h4>
-                                <p>
+                                <h3 className="vertical-timeline-element-title pb-2">Token Launch</h3>
+                                <h3 className="vertical-timeline-element-subtitle pb-2">DEX Listing</h3>
+                                <h3  className=" pb-2">
                                     Uren Android App development
-                                </p>
-                                <p>Web App development  </p>
-                                <p>App Early bird testing</p>
-                                <p>Debugging and upgrades</p>
+                                </h3>
+                                <h3 className=" pb-2">Web App development  </h3>
+                                <h3 className=" pb-2">App Early bird testing</h3>
+                                <h3 className=" pb-2">Debugging and upgrades</h3>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
-                                className="vertical-timeline-element--work"
+                                className="vertical-timeline-element--work text-lg  font-medium"
                                 date="Q4:"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
                                 iconStyle={{ background: '#08091A', color: '#000' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Apps listing on website,
+                                <h3 className="vertical-timeline-element-title pb-2">Apps listing on website,
                                     Google PlayStore e.t.c</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Property Listing and Apps Use
-                                    fully commence  </h4>
-                                <p>
+                                <h3 className="vertical-timeline-element-subtitle pb-2">Property Listing and Apps Use
+                                    fully commence  </h3>
+                                <h4 className=" pb-2">
                                     Marketing campaign launch
                                     (with AMAs and interviews)
 
-                                </p>
-                                <p>Partnership</p>
+                                </h4>
+                                <h4 className=" pb-2">Partnership</h4>
                             </VerticalTimelineElement>
 
 
-                        </VerticalTimeline>
+                        </VerticalTimeline >
+                        <div className='flex justify-center text-4xl my-20 font-black'></div>
                     </TabPane>
+                    
                     <TabPane name="2023" key="2">
 
-                        <div className='flex justify-center text-4xl my-10 font-black'>2023 : Project Expansion Stage</div>
-                        <VerticalTimeline>
+                        <div className='flex justify-center lg:text-4xl text-2xl my-10 font-black'>2023 : Project Expansion Stage</div>
+                        <VerticalTimeline  lineColor='#0000FF'>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work mb-10"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="Q1:"
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">CEX Listing</h3>
+                                <h3 className="vertical-timeline-element-title Pb-2">CEX Listing</h3>
 
 
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
-                                className="vertical-timeline-element--work mb-10"
+                                className="vertical-timeline-element--work  text-lg font-medium"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="Q2:"
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Architectural drawing and
+                                <h3 className="vertical-timeline-element-title Pb-2">Architectural drawing and
                                     renderings of the property
                                     release with public BOQ of
                                     the project
                                 </h3>
-                                <h4 className="vertical-timeline-element-subtitle">NFT Marketplace Development </h4>
+                                <h3 className="vertical-timeline-element-subtitle">NFT Marketplace Development </h3>
 
 
                             </VerticalTimelineElement>
@@ -148,7 +153,7 @@ const Roadmap = () => {
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">NFT Presale</h3>
+                                <h3 className="vertical-timeline-element-title pb-2">NFT Presale</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Continued Advert and Marketing
                                     Campaign</h4>
                                 <p>
@@ -164,7 +169,7 @@ const Roadmap = () => {
                                 iconStyle={{ background: '#08091A', color: '#000' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Uren CEX Developmet and Beta
+                                <h3 className="vertical-timeline-element-title pb-2">Uren CEX Developmet and Beta
                                     Testing</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Investors Benefit Implementation
                                     takes effect  </h4>
@@ -181,17 +186,19 @@ const Roadmap = () => {
 
 
                         </VerticalTimeline>
+                        <div className='flex justify-center text-4xl my-20 font-black'></div>
+
                     </TabPane>
 
                     <TabPane name="2024" key="3">
-                        <div className='flex justify-center text-4xl my-10 font-black'>2024: Real Estate Project
+                        <div className='flex justify-center lg:text-4xl text-2xl my-10 font-black'>2024: Real Estate Project
                             Commencement
                         </div>
-                        <VerticalTimeline>
+                        <VerticalTimeline  lineColor='#0000FF'>
                             <VerticalTimelineElement
-                                className="vertical-timeline-element--work mb-10"
+                                className="vertical-timeline-element--work  text-lg font-medium"
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="Q1:"
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
@@ -220,15 +227,17 @@ const Roadmap = () => {
 
 
                         </VerticalTimeline>
+                        <div className='flex justify-center text-4xl my-20 font-black'></div>
+
                     </TabPane>
                     <TabPane name="2025" key="4">
-                        <div className='flex justify-center text-4xl my-10 font-black'>2025: Uren Chain
+                        <div className='flex justify-center lg:text-4xl text-2xl my-10 font-black'>2025: Uren Chain
                         </div>
-                        <VerticalTimeline>
+                        <VerticalTimeline  lineColor='#0000FF'>
                             <VerticalTimelineElement
-                                className="vertical-timeline-element--work mb-10"
+                                className="vertical-timeline-element--work  text-lg  font-medium "
                                 contentStyle={{ background: '#08091A', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="Q1:"
                                 iconStyle={{ background: '#08091A', color: '#fff' }}
                             // icon={<WorkIcon />}
@@ -254,6 +263,8 @@ const Roadmap = () => {
 
 
                         </VerticalTimeline>
+                        <div className='flex justify-center text-4xl my-20 font-black'></div>
+
                     </TabPane>
                 </Tabs>
             </div>

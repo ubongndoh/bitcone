@@ -18,7 +18,7 @@ export default function Navbar() {
 					<div className=' flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
 						<Link
 							to='/'
-							className=' lg:text-xl text-lg font-bold leading-relaxed inline-block ml-10 py-2 whitespace-nowrap uppercase text-white'
+							className=' lg:text-xl text-lg font-bold leading-relaxed inline-block lg:ml-10 ml-0 py-2 whitespace-nowrap uppercase text-white'
 						>
 							<img src={logo} alt='' className='lg:h-12 lg:w-full h-8' />
 						</Link>
@@ -40,9 +40,7 @@ export default function Navbar() {
 					{/* <div className='flex items-center  mr-20'>
 						<ul className='flex  flex-row list-none '>
 							<li className='lg:px-3 px-1 py-2 flex  items-center '>
-								<button className='  hover:scale-105 btn font-medium text-lg   px-8 py-2 rounded-lg'>
-									Login
-								</button>
+								
 							</li>
 						</ul>
 					</div> */}

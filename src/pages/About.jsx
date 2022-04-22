@@ -38,10 +38,14 @@ const About = () => {
 						}}
 					>
 						<div className='lg:pl-40 pl-10 pt-10'>
-							<div className='lg:text-6xl text-4xl font-bold  '>
-								UREN TECHNOLOGIES <br /> TOKEN(UTT)
+							<div className='lg:text-6xl text-4xl font-bold   '>
+								UREN TECHNOLOGIES <br />
 							</div>
-							<div className=' lg:my-14 my-3 lg:text-2xl text-xl lg:text-slate-200'>
+							<div className='lg:text-6xl text-4xl font-bold lg:mt-3 mt-0'>
+								{' '}
+								TOKEN(UTT)
+							</div>
+							<div className=' lg:my-10 my-3 lg:text-2xl text-left text-xl lg:text-slate-200'>
 								{' '}
 								Uren Technology is harnessing the power of <br /> Blockchain in
 								developing affordable homes, <br /> cities and enhancing fraud

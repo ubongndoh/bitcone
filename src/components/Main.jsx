@@ -36,7 +36,7 @@ const Main = () => {
 									<p className='text-white text-lg font-normal mb-2'>
 										Uren Platforms is for listing leasing, selling, buying and
 										investigating ownerships of properties and property (ies)
-										document.
+										document
 									</p>
 								</div>
 							</div>
@@ -102,7 +102,7 @@ const Main = () => {
 									<p className='text-white text-lg font-normal mb-6'>
 										Uren Platforms is for listing leasing, selling, buying and
 										investigating ownerships of properties and property (ies)
-										document.
+										document
 									</p>
 								</div>
 							</div>
@@ -131,9 +131,15 @@ const Main = () => {
 						<div className=' text-center'>
 							{/* <p className='text-lg font-semibold text-gray-50  my-2 '>100k</p> */}
 							{/* <p className='mb-2 text-sm font-medium text-gray-50  '>Follow</p> */}
-							<button className='border hover:scale-105  font-medium text-lg  shadow-cla-blue lg:px-4 px-2 py-1 rounded-lg'>
-								Follow
-							</button>
+							<a
+								href='https://twitter.com/Urentech1'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<button className='border hover:scale-105  font-medium text-lg  shadow-cla-blue lg:px-4 px-2 py-1 rounded-lg'>
+									Follow
+								</button>
+							</a>
 						</div>
 					</div>
 					<div className='flex flex-col justify-center py-6  items-center mx-10 my-10 border rounded-lg shadow-xs '>
@@ -155,22 +161,34 @@ const Main = () => {
 						<div className=' text-center'>
 							{/* <p className='text-lg font-semibold text-gray-50 my-2  '>150k</p> */}
 							{/* <p className='mb-2 text-sm font-medium text-gray-50  '>Join</p> */}
-							<button className=' border hover:scale-105 drop-shadow-md font-medium text-lg  shadow-cla-blue px-4 py-1 rounded-lg'>
-								Join
-							</button>
+							<a
+								href='https://discord.com/channels/967060409234362389/967060510954631180'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<button className=' border hover:scale-105 drop-shadow-md font-medium text-lg  shadow-cla-blue px-4 py-1 rounded-lg'>
+									Join
+								</button>
+							</a>
 						</div>
 					</div>
 					<div className='flex flex-col justify-center py-6  items-center mx-10 my-10 border rounded-lg shadow-xs '>
 						<div className='p-3  rounded-full '>
 							<img alt='...' src={reddit} className=' h-10 w-10  ' />
 						</div>
-						<div className=' text-center'>
-							{/* <p className='text-lg font-semibold text-gray-50  my-2 '>100k</p> */}
-							{/* <p className='mb-2 text-sm font-medium text-gray-50  '>Join</p> */}
-							<button className=' border hover:scale-105 drop-shadow-md font-medium text-lg  shadow-cla-blue px-4 py-1 rounded-lg'>
-								Join
-							</button>
-						</div>
+						<a
+							href='https://www.reddit.com/user/Urentech'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div className=' text-center'>
+								{/* <p className='text-lg font-semibold text-gray-50  my-2 '>100k</p> */}
+								{/* <p className='mb-2 text-sm font-medium text-gray-50  '>Join</p> */}
+								<button className=' border hover:scale-105 drop-shadow-md font-medium text-lg  shadow-cla-blue px-4 py-1 rounded-lg'>
+									Join
+								</button>
+							</div>
+						</a>
 					</div>
 				</div>
 			</section>

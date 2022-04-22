@@ -39,7 +39,7 @@ const About = () => {
 					>
 						<div className='lg:pl-40 pl-10 pt-10'>
 							<div className='lg:text-6xl text-4xl font-bold  '>
-								UREN TECHNOLOGIES TOKEN(UTT)
+								UREN TECHNOLOGIES <br /> TOKEN(UTT)
 							</div>
 							<div className=' lg:my-14 my-3 lg:text-2xl text-xl lg:text-slate-200'>
 								{' '}

@@ -1,9 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ScreenSamples from '@/assets/blockchain-real-estate-part-one.png';
-import img2 from '@/assets/blockchain-real-estate-part-two.png';
-import img4 from '@/assets/img3.png';
-import img3 from '@/assets/img2.png';
 
 import group1 from '@/assets/Group30.png';
 import group2 from '@/assets/Group31.png';
@@ -18,104 +14,103 @@ import roadmap from '@/assets/roadmap.png';
 const Main = () => {
 	return (
 		<>
-		<main className=' overflow-hidden pb-20 text-warmGray-50 card '>
-			{/* cards */}
-			<section className=' my-40'>
-				{/* row 1 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0 '>
-					<div className='mx-auto flex border-b-2 rounded-b-lg '>
-						<div className=' rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
-							<div>
-								<img className=' mx-auto h-20 w-20' src={group1} alt='' />
-							</div>
-							<div className='p-6 text-center '>
-								<h5 className='text-white text-3xl font-black mb-8 text-center'>
-									Revolutionizing and Empowering Real Estate Development.
-								</h5>
-								<p className='text-white text-lg font-normal mb-6'>
-									We bring strategies and invent models to accelerate Real
-									Estate development in cities of developing nations through the
-									use of Technology.
-								</p>
-								<p className='text-white text-lg font-normal mb-2'>
-									Uren Platforms is for listing leasing, selling, buying and
-									investigating ownerships of properties and property (ies)
-									document.
-								</p>
+			<main className=' overflow-hidden pb-20 text-warmGray-50 card '>
+				{/* cards */}
+				<section className=' my-40'>
+					{/* row 1 */}
+					<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0 '>
+						<div className='mx-auto flex border-b-2 rounded-b-lg '>
+							<div className=' rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
+								<div>
+									<img className=' mx-auto h-20 w-20' src={group1} alt='' />
+								</div>
+								<div className='p-6 text-center '>
+									<h5 className='text-white text-3xl font-black mb-8 text-center'>
+										Revolutionizing and Empowering Real Estate Development.
+									</h5>
+									<p className='text-white text-lg font-normal mb-6'>
+										We bring strategies and invent models to accelerate Real
+										Estate development in cities of developing nations through
+										the use of Technology.
+									</p>
+									<p className='text-white text-lg font-normal mb-2'>
+										Uren Platforms is for listing leasing, selling, buying and
+										investigating ownerships of properties and property (ies)
+										document.
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div className=' mx-auto flex border-b-2 rounded-b-lg'>
-						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card2  '>
-							<a href='#!'>
-								<img className='rounded-t-lg mx-auto' src={group2} alt='' />
-							</a>
-							<div className='p-6 text-center '>
-								<h5 className='text-white text-3xl font-black mb-8 text-center'>
-									Development of World-class Buildings for Low Income Earners
-								</h5>
-								<p className='text-white text-lg font-normal mb-6'>
-									We harness the power of Blockchain Technology to develop
-									world-class buildings for developing cities, we also invest
-									into some big names within the company to make available home
-									for low income earners.
-								</p>
+						<div className=' mx-auto flex border-b-2 rounded-b-lg'>
+							<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card2  '>
+								<a href='#!'>
+									<img className='rounded-t-lg mx-auto' src={group2} alt='' />
+								</a>
+								<div className='p-6 text-center '>
+									<h5 className='text-white text-3xl font-black mb-8 text-center'>
+										Development of World-class Buildings for Low Income Earners
+									</h5>
+									<p className='text-white text-lg font-normal mb-6'>
+										We harness the power of Blockchain Technology to develop
+										world-class buildings for developing cities, we also invest
+										into some big names within the company to make available
+										home for low income earners.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				{/* row 2 */}
-				<div className=' grid lg:grid-cols-2 grid-cols-1   gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0'>
-					<div className='flex mx-auto border-b-2 rounded-b-lg '>
-						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card3 '>
-							<a href='#!'>
-								<img className='rounded-t-lg mx-auto' src={group3} alt='' />
-							</a>
-							<div className='p-6 text-center '>
-								<h5 className='text-white text-3xl font-black mb-8 text-center'>
-									Grow your income and Portfolio
-								</h5>
-								<p className='text-white text-lg font-normal mb-6'>
-									Buying, selling, renting or leasing property(ies) using the
-									Uren platform accrues reward and even more if the payments are
-									made using Uren token. Also, investors can invest directly
-									into the Uren technologies by owning Non-fungible Token (NFTs)
-									which shall serve as the governance token, and earn yields
-									from the annual benefit of the company. The NFTs can also be
-									sold at any time.
-								</p>
+					{/* row 2 */}
+					<div className=' grid lg:grid-cols-2 grid-cols-1   gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0'>
+						<div className='flex mx-auto border-b-2 rounded-b-lg '>
+							<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card3 '>
+								<a href='#!'>
+									<img className='rounded-t-lg mx-auto' src={group3} alt='' />
+								</a>
+								<div className='p-6 text-center '>
+									<h5 className='text-white text-3xl font-black mb-8 text-center'>
+										Grow your income and Portfolio
+									</h5>
+									<p className='text-white text-lg font-normal mb-6'>
+										Buying, selling, renting or leasing property(ies) using the
+										Uren platform accrues reward and even more if the payments
+										are made using Uren token. Also, investors can invest
+										directly into the Uren technologies by owning Non-fungible
+										Token (NFTs) which shall serve as the governance token, and
+										earn yields from the annual benefit of the company. The NFTs
+										can also be sold at any time.
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div className='flex mx-auto border-b-2 rounded-b-lg '>
-						<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card1 '>
-							<a href='#!'>
-								<img className='rounded-t-lg mx-auto' src={group1} alt='' />
-							</a>
-							<div className='p-6 text-center '>
-								<h5 className='text-white text-3xl font-black mb-8 text-center'>
-									Revolutionizing and Empowering Real Estate Development.
-								</h5>
-								<p className='text-white text-lg font-normal mb-6'>
-									We bring strategies and invent models to accelerate Real
-									Estate development in cities of developing nations through the
-									use of Technology.
-								</p>
-								<p className='text-white text-lg font-normal mb-6'>
-									Uren Platforms is for listing leasing, selling, buying and
-									investigating ownerships of properties and property (ies)
-									document.
-								</p>
+						<div className='flex mx-auto border-b-2 rounded-b-lg '>
+							<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card1 '>
+								<a href='#!'>
+									<img className='rounded-t-lg mx-auto' src={group1} alt='' />
+								</a>
+								<div className='p-6 text-center '>
+									<h5 className='text-white text-3xl font-black mb-8 text-center'>
+										Revolutionizing and Empowering Real Estate Development.
+									</h5>
+									<p className='text-white text-lg font-normal mb-6'>
+										We bring strategies and invent models to accelerate Real
+										Estate development in cities of developing nations through
+										the use of Technology.
+									</p>
+									<p className='text-white text-lg font-normal mb-6'>
+										Uren Platforms is for listing leasing, selling, buying and
+										investigating ownerships of properties and property (ies)
+										document.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			
-		</main>
-		<section className='mt-40'>
+				</section>
+			</main>
+			<section className='mt-40'>
 				<div>
 					<h3 className=' font-black text-center lg:text-4xl text-2xl  my-10'>
 						Our Community
@@ -189,10 +184,10 @@ const Main = () => {
 						</p>
 						{/* <div className='btn'>View Road Map</div> */}
 						<Link to='/roadmap'>
-						
-						<button class='btn hover:scale-105 drop-shadow-md font-medium text-lg my-10  px-4 py-1 rounded-lg'>
-							View Road Map
-						</button></Link>
+							<button class='btn hover:scale-105 drop-shadow-md font-medium text-lg my-10  px-4 py-1 rounded-lg'>
+								View Road Map
+							</button>
+						</Link>
 					</div>
 
 					<div className='  '>
@@ -203,8 +198,6 @@ const Main = () => {
 				</div>
 			</section>
 		</>
-		
-		
 	);
 };
 

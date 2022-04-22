@@ -43,7 +43,7 @@ const About = () => {
 							</div>
 							<div className=' lg:my-14 my-3 lg:text-2xl text-xl lg:text-slate-200'>
 								{' '}
-								Uren Technology is harnessing the power of Blockchain <br /> in
+								Uren Technology is harnessing the power of <br /> Blockchain in
 								developing affordable homes, <br /> cities and enhancing fraud
 								free Real Estate <br /> investment in the wider world, and
 								creating <br /> wealth for investors. Our technology cuts <br />{' '}

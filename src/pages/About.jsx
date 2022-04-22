@@ -26,7 +26,7 @@ const About = () => {
 						className=''
 						style={{
 							backgroundImage: `url(${img2}) `,
-							
+
 							backgroundRepeat: 'no-repeat',
 							height: '100%',
 							//width: '40px',
@@ -39,17 +39,16 @@ const About = () => {
 					>
 						<div className='lg:pl-40 pl-10 pt-10'>
 							<div className='lg:text-6xl text-4xl font-bold  '>
-								About Uren <br /> Technologies
+								UREN TECHNOLOGIES TOKEN(UTT)
 							</div>
 							<div className=' lg:my-14 my-3 lg:text-2xl text-xl lg:text-slate-200'>
 								{' '}
-								Uren – is a Real Estate is harnessing the power <br /> of
-								Blockchain to developing affordable homes <br /> cities and
-								enhancing fraud free Real Estate <br /> investment in the wider
-								world. It cuts across <br /> Android, IOS, Web and other
-								operating systems.
+								Uren Technology is harnessing the power of Blockchain <br /> in
+								developing affordable homes, <br /> cities and enhancing fraud
+								free Real Estate <br /> investment in the wider world, and
+								creating <br /> wealth for investors. Our technology cuts <br />{' '}
+								across Android, IOS, Web and other operating <br /> systems
 							</div>
-							
 						</div>
 					</div>
 				</div>
@@ -57,7 +56,9 @@ const About = () => {
 			<section>
 				<div className='grid lg:grid-cols-2 grid-cols-1'>
 					<div className='px-20 mt-10 '>
-						<h2 className=' font-black lg:text-6xl text-4xl my-10'>Uren Technology</h2>
+						<h2 className=' font-black lg:text-6xl text-4xl my-10'>
+							Uren Technology
+						</h2>
 						<p className='my-12 text-lg font-light text-slate-200'>
 							Application is used to discover vacant accommodations for rent,
 							lease or sales in cities and beyond. Uren Market place is a
@@ -66,7 +67,9 @@ const About = () => {
 						</p>
 					</div>
 					<div className='px-20 mt-10'>
-						<h2 className='  font-black lg:text-6xl text-4xl my-10'>Uren NFTs </h2>
+						<h2 className='  font-black lg:text-6xl text-4xl my-10'>
+							Uren NFTs{' '}
+						</h2>
 						<p className='my-12 text-lg font-light text-slate-200'>
 							Uren NFTs are visual building properties issued to direct
 							investors instead of shares, and holders are entitled to annual
@@ -79,7 +82,9 @@ const About = () => {
 				</div>
 				<div className='grid lg:grid-cols-2 grid-col-1'>
 					<div className='px-20'>
-						<h2 className=' font-black  lg:text-6xl text-4xl  my-10'>Uren (URT) </h2>
+						<h2 className=' font-black  lg:text-6xl text-4xl  my-10'>
+							Uren (URT){' '}
+						</h2>
 						<p className='my-12 text-lg font-light text-slate-200'>
 							Uren (URT) is a token issued under BRC-20 Protocol for day to day
 							transactions in the Uren Ecosystem and is growing to become a
@@ -87,7 +92,9 @@ const About = () => {
 						</p>
 					</div>
 					<div className='px-20'>
-						<h2 className=' font-black  lg:text-6xl text-4xl  my-10'>Uren Real Estate </h2>
+						<h2 className=' font-black  lg:text-6xl text-4xl  my-10'>
+							Uren Real Estate{' '}
+						</h2>
 						<p className='my-12 text-lg font-light text-slate-200'>
 							Uren is a Real Estate is harnessing the power of Blockchain to
 							developing affordable homes cities and enhancing fraud free Real
@@ -111,9 +118,8 @@ const About = () => {
 							To use this service
 						</h5>
 						<p class=' lg:text-center text-xl font-light mb-4 text-slate-200'>
-							Subscription is required on per use basis on for a certain period
-							of time. In the future, Uren will expand to acquiring and building
-							properties which will be available for sale on discounted price
+							In the future, Uren will expand to acquiring and building
+							properties which will be available for sales on discounted price
 							using the token, this will eventually lead into developing estates
 							for sales in the long run. In most major cities of developing
 							country, it has become obvious that there is a high demand for
@@ -125,10 +131,10 @@ const About = () => {
 							better and easy accommodation offers.
 						</p>
 						<Link to='# ' className='flex justify-center'>
-						
-						<button class='border hover:scale-105 drop-shadow-md font-bold text-3xl  my-10  px-4 py-3 rounded-lg'>
-						White paper
-						</button></Link>
+							<button class='border hover:scale-105 drop-shadow-md font-bold text-3xl  my-10  px-4 py-3 rounded-lg'>
+								White paper
+							</button>
+						</Link>
 					</div>
 				</div>
 			</section>

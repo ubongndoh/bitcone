@@ -1,6 +1,6 @@
 import React from 'react';
 //import img from '../assets/real-estate.png';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -137,30 +137,28 @@ const Hero = ({ img }) => {
 							</div>
 							<div className=' lg:my-12 my-3 '>
 								{' '}
-								we harness the power of Blockchain Technologies to develoop
+								We harness the power of Blockchain Technologies to develoop
 								world- <br /> class buildings for...
 							</div>
-							<Link to='/roadmap'>
-							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
-								View RoadMap
-							</button>
+							<Link to='/about'>
+								<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
+									View More
+								</button>
 							</Link>
-							
 						</div>
 						<div>
 							<div className='lg:text-4xl text-2xl font-bold '>
-								The NFT market place <br /> will serve as retail <br /> market
-								for Uren governance
+								The NFT Marketplace
 							</div>
 							<div className=' lg:my-12 my-3 '>
 								{' '}
 								Uren NFTs are visual building properties issued to direct
 								<br /> investors instead of shares
 							</div>
-							<Link to='/roadmap'>
-							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
-								View RoadMap
-							</button>
+							<Link to='/about'>
+								<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
+									View More
+								</button>
 							</Link>
 						</div>
 						<div>
@@ -175,10 +173,10 @@ const Hero = ({ img }) => {
 								investigating . <br /> ownerships of properties and property
 								(ies) document
 							</div>
-							<Link to='/roadmap'>
-							<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
-								View RoadMap
-							</button>
+							<Link to='/about'>
+								<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
+									View More
+								</button>
 							</Link>
 						</div>
 					</Slider>

@@ -18,7 +18,7 @@ const Main = () => {
 				{/* cards */}
 				<section className=' my-40'>
 					{/* row 1 */}
-					<div className=' grid lg:grid-cols-2 grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0 '>
+					<div className=' grid lg:grid-cols-2 md:grid-cols-2  grid-cols-1  gap-4 my-10 lg:mx-auto mx-0 lg:px-64 md:px-10 px-0 '>
 						<div className='mx-auto flex border-b-2 rounded-b-lg '>
 							<div className=' rounded-lg shadow-lg bg-white lg:max-w-sm max-w-xs py-5 card1 '>
 								<div>
@@ -62,7 +62,7 @@ const Main = () => {
 						</div>
 					</div>
 					{/* row 2 */}
-					<div className=' grid lg:grid-cols-2 grid-cols-1   gap-4 my-10 lg:mx-auto mx-0 lg:px-64 px-0'>
+					<div className=' grid lg:grid-cols-2 md:grid-cols-2  grid-cols-1   gap-4 my-10 lg:mx-auto mx-0 lg:px-64 md:px-10 px-0'>
 						<div className='flex mx-auto border-b-2 rounded-b-lg '>
 							<div className='rounded-lg shadow-lg  lg:max-w-sm max-w-xs py-5 card3 '>
 								<a href='#!'>
@@ -92,17 +92,14 @@ const Main = () => {
 								</a>
 								<div className='p-6 text-center '>
 									<h5 className='text-white text-3xl font-black mb-8 text-center'>
-										Revolutionizing and Empowering Real Estate Development.
+										Zero Fraud Real Estate Investment
 									</h5>
 									<p className='text-white text-lg font-normal mb-6'>
-										We bring strategies and invent models to accelerate Real
-										Estate development in cities of developing nations through
-										the use of Technology.
-									</p>
-									<p className='text-white text-lg font-normal mb-6'>
-										Uren Platforms is for listing leasing, selling, buying and
-										investigating ownerships of properties and property (ies)
-										document
+										We partner with some big names in the industry and
+										governments agencies to provide security and investigate
+										into ownership of properties and legality of property
+										documents to avoid zero fraud for properties bought, sold,
+										rented or leased using the Uren Platforms.
 									</p>
 								</div>
 							</div>
@@ -115,11 +112,10 @@ const Main = () => {
 					<h3 className=' font-black text-center lg:text-4xl text-2xl  my-10'>
 						Our Community
 					</h3>
-					<p className=' lg:px-20 px-5 lg:font-normal font-light lg:text-lg text-base lg:text-center text-left'>
+					<p className=' lg:px-60 lg:font-normal font-light lg:text-lg md:text-lg text-base lg:text-center md:text-center text-center px-10 '>
 						We are home to one of the fastest-growing communities at the
-						intersection of variety gaming, <br /> esports, and blockchain. We
-						are intentional about building an international community that is{' '}
-						<br />
+						intersection of variety gaming, esports, and blockchain. We are
+						intentional about building an international community that is{' '}
 						currently supported in 18 languages with more to come.
 					</p>
 				</div>
@@ -193,7 +189,7 @@ const Main = () => {
 				</div>
 			</section>
 			<section>
-				<div className=' grid lg:grid-cols-2 grid-cols-1   lg:mt-10  mt-5 card'>
+				<div className=' grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1   lg:mt-10  mt-5 card'>
 					<div className=' px-20 mt-7 '>
 						<h3 className='text-4xl  font-bold  '>Our Roadmap</h3>
 						<p className=' text-base leading-relaxed mt-10 mb-4 text-warmGray-50'>
@@ -202,7 +198,7 @@ const Main = () => {
 						</p>
 						{/* <div className='btn'>View Road Map</div> */}
 						<Link to='/roadmap'>
-							<button class='btn hover:scale-105 drop-shadow-md font-medium text-lg my-10  px-4 py-1 rounded-lg'>
+							<button class='btn hover:scale-105  font-medium text-lg my-10  px-4 py-1 rounded-lg'>
 								View Road Map
 							</button>
 						</Link>

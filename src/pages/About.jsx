@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import img from '../assets/—Pngtree—light.png';
-import img2 from '../assets/blokch1.png';
+
 import { Link } from 'react-router-dom';
 const About = () => {
 	return (
@@ -11,7 +11,7 @@ const About = () => {
 
 			<header>
 				<div
-					className=' lg:h-screen  h-96'
+					className=' lg:h-screen  h-60'
 					style={{
 						backgroundImage: `url(${img})`,
 						backgroundRepeat: 'no-repeat',
@@ -23,19 +23,19 @@ const About = () => {
 					}}
 				>
 					<div
-						className=''
-						style={{
-							backgroundImage: `url(${img2}) `,
-
-							backgroundRepeat: 'no-repeat',
-							height: '100%',
-							//width: '40px',
-							//backgroundSize: 'cover',
-
-							width: '100%',
-							backgroundPosition: 'top right',
-							//height: '450px',
-						}}
+						className='bg-abt'
+						style={
+							{
+								// backgroundImage: `url(${img2}) `,
+								// backgroundRepeat: 'no-repeat',
+								// height: '100%',
+								// //width: '40px',
+								// //backgroundSize: 'cover',
+								// width: '100%',
+								// backgroundPosition: 'top right',
+								// //height: '450px',
+							}
+						}
 					>
 						<div className='lg:pl-40 pl-10 pt-10'>
 							<div className='lg:text-6xl text-4xl font-bold   '>
@@ -45,13 +45,13 @@ const About = () => {
 								{' '}
 								TOKEN(UTT)
 							</div>
-							<div className=' lg:my-10 my-3 lg:text-2xl text-left text-xl lg:text-slate-200'>
+							<div className='lg:w-2/5 w-full pr-4 lg:my-10 mt-20 lg:text-2xl text-left text-xl lg:text-slate-200'>
 								{' '}
-								Uren Technology is harnessing the power of <br /> Blockchain in
-								developing affordable homes, <br /> cities and enhancing fraud
-								free Real Estate <br /> investment in the wider world, and
-								creating <br /> wealth for investors. Our technology cuts <br />{' '}
-								across Android, IOS, Web and other operating <br /> systems
+								Uren Technology is harnessing the power of Blockchain in
+								developing affordable homes, cities and enhancing fraud free
+								Real Estate investment in the wider world, and creating wealth
+								for investors. Our technology cuts across Android, IOS, Web and
+								other operating systems
 							</div>
 						</div>
 					</div>

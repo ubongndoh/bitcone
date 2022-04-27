@@ -7,10 +7,10 @@ import ScrollToTop from './components/scrollToTop';
 
 function App() {
 	return (
-		<>
-		<ScrollToTop/>
+		<div className=' overflow-hidden'>
+			<ScrollToTop />
 			<AppRoutes />
-		</>
+		</div>
 	);
 }
 

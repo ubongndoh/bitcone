@@ -40,8 +40,8 @@ body {
 	z-index: 0;
 }
 /* cards */
-.card{
-background-color: #090817F0;
+.card {
+	background-color: #090817f0;
 }
 .card1 {
 	background-color: rgba(0, 0, 255, 0.15);
@@ -56,37 +56,52 @@ background-color: #090817F0;
 
 .tab-header {
 	list-style: none;
-	
+
 	border-radius: 36px;
 	line-height: 25px;
+}
 
-  }
-
-  .tab-header li {
-  display: inline;
-  padding: 7px 12px;
-  border-radius: 36px;
-  line-height: 35px;
-  cursor: pointer;
-  margin: 0 4px;
+.tab-header li {
+	display: inline;
+	padding: 7px 12px;
+	border-radius: 36px;
+	line-height: 35px;
+	cursor: pointer;
+	margin: 0 4px;
 }
 
 .tab-header li.active,
 .tab-header li:hover {
-  background: #4cb8c4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #4cb8c4,
-    #3cd3ad
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #4cb8c4,
-    #3cd3ad
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #4cb8c4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#4cb8c4,
+		#3cd3ad
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#4cb8c4,
+		#3cd3ad
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.vertical-timeline-element-icon{
-	-webkit-box-shadow: 0 0 0 4px #0000FF, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%)!important;
-    box-shadow: 0 0 0 4px #0000FF, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%)!important;
+.vertical-timeline-element-icon {
+	-webkit-box-shadow: 0 0 0 4px #0000ff, inset 0 2px 0 rgb(0 0 0 / 8%),
+		0 3px 0 4px rgb(0 0 0 / 5%) !important;
+	box-shadow: 0 0 0 4px #0000ff, inset 0 2px 0 rgb(0 0 0 / 8%),
+		0 3px 0 4px rgb(0 0 0 / 5%) !important;
+}
+
+.bg-abt {
+	background-image: url('./assets/blokch1.png');
+	background-repeat: no-repeat;
+	height: 100%;
+	/* background-size: 'cover'; */
+	/* width: '100%'; */
+	background-position: top right;
+}
+@media only screen and (max-device-width: 810px) {
+	.bg-abt {
+		background-image: none;
+	}
 }

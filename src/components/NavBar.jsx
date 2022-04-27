@@ -18,23 +18,28 @@ export default function Navbar() {
 					<div className=' flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
 						<Link
 							to='/'
-							className=' lg:text-xl text-lg font-bold leading-relaxed inline-block lg:ml-10 ml-0 py-2 whitespace-nowrap uppercase text-white'
+							className=' lg:text-xl text-lg font-bold leading-relaxed inline-block lg:ml-10 md:ml-9 ml-0 py-2 whitespace-nowrap uppercase text-white'
 						>
 							<img src={logo} alt='' className='lg:h-12 lg:w-full h-8' />
 						</Link>
 					</div>
-					<div className='flex items-center lg:pt-0 pt-3'>
+					<div className='flex items-center lg:py-2 py-3'>
 						<ul className='flex  flex-row list-none '>
 							<Link to='/'>
-								<li className='lg:px-10 px-2 lg:text-base text-sm'>Home</li>
+								<li className='lg:px-10 md:px-8 px-2 lg:text-base text-sm'>
+									Home
+								</li>
 							</Link>
 							<Link to='/about'>
-								<li className='lg:px-10 px-2 lg:text-base text-sm'>About</li>
+								<li className='lg:px-10 md:px-8  px-2 lg:text-base text-sm'>
+									About
+								</li>
 							</Link>
-							<Link to='/roadmap'>	
-							<li className='lg:px-10 px-2 lg:text-base text-sm'>Roadmap</li>
+							<Link to='/roadmap'>
+								<li className='lg:px-10 md:px-8  px-2 lg:text-base text-sm'>
+									Roadmap
+								</li>
 							</Link>
-						
 						</ul>
 					</div>
 					{/* <div className='flex items-center  mr-20'>

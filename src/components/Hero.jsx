@@ -138,7 +138,7 @@ const Hero = ({ img }) => {
 							<div className=' lg:my-12 my-3 '>
 								{' '}
 								We harness the power of Blockchain Technologies to develoop
-								world- <br /> class buildings for...
+								world- <br /> class buildings for..
 							</div>
 							<Link to='/about'>
 								<button className=' mt-2  hover:scale-105 btn font-medium text-lg   px-6 py-1 rounded-lg'>
